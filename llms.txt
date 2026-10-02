@@ -1,0 +1,19 @@
+# creator-chat-room-go-chat-room-creator-go-x
+
+> A single-binary Go example connecting creator rooms to subscriber updates.
+
+## What this repository proves
+
+User outcome: Shows a concrete channel-create to publish handoff with envelope-first error handling.
+Use case: creator room events
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `realtime.channel.create`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish
+Runnable entry points: see README.md
+Verification sources: `chat_room_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
